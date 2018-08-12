@@ -21,4 +21,19 @@ body {
      margin-top: 50px;
      margin-bottom: 20px;
      padding: 20px;
+		 background-color: #343a40;
+}
+
+h1 {
+	color: white;
+	font-family: sans-serif;
+}
+
+.project {
+		margin-left: 20px;
+		background-color: #343a40;
+}
+
+.project-text {
+	color: white;
 }
