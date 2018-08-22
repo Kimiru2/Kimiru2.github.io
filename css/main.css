@@ -21,19 +21,29 @@ body {
      margin-top: 50px;
      margin-bottom: 20px;
      padding: 20px;
-		 background-color: #343a40;
 }
 
 h1 {
-	color: white;
 	font-family: sans-serif;
+	color: black;
+}
+
+#about {
+	font-family: monospace;
 }
 
 .project {
 		margin-left: 20px;
-		background-color: #343a40;
+		background-color: black;
+		border-style: double;
 }
 
 .project-text {
 	color: white;
+	font-family: Times;
+}
+
+#profile {
+	background-color: black;
+	border-style: groove;
 }
