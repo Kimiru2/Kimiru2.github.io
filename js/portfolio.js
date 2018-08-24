@@ -19,8 +19,8 @@ $(this).parent().next().toggle();
 	}
 $(".nav-item").click(NavActive);
 function NavActive() {
+	$("li.nav-item").removeClass(" nav-item active");
 	$(this).toggleClass("nav-item active");
-	$("li.nav-item").removeClass("nav-item active")
 
 }
 }
