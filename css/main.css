@@ -14,6 +14,7 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+		 background-color: #00cccc;
 }
 
 .jumbotron-container {
@@ -29,21 +30,28 @@ h1 {
 }
 
 #about {
-	font-family: monospace;
+	font-family: sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .project {
 		margin-left: 20px;
-		background-color: black;
+		background-color: #262626;
 		border-style: double;
 }
 
 .project-text {
 	color: white;
-	font-family: Times;
+	font-family: sans-serif;
 }
 
-#profile {
-	background-color: black;
-	border-style: groove;
+#contact {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#projects {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
